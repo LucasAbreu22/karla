@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+
+
+body#bgPrincipal{
+    display: block;
+    padding: 0;
+
+    background-image: url("../img/bg.jpg");
+    background-color: #ccc;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#backgroundFuncs{
+    background-color: #D3E0E3;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    border-radius:20px;
+    
+}
+
+#pnGridTipoCons{
+    margin-bottom: 10px;
+}
+
+
+#form{
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+
+#icon{
+   font-size: 30px;
+   margin-left: auto;
+   margin-right: auto;
+
+   padding-top: 30px;
+}
+
+#labelLogin, #labelUser, #labelPswd, #pnCodigoTela, .nomeAba, label{
+    font-family: 'Domine', serif;
+}
+
+#labelUser{
+    font-size: 15px;
+}
+#labelPswd{
+    font-size: 15px;
+}
+
+.fas{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.back{
+    font-size: 25px !important;
+}
+
+.back:hover{
+    cursor: pointer;
+    color: #555555;
+}
+
+#pnCodigoTela{
+    font-size: 25px;
+    margin-top: -25px;
+}
+
+#pnFields{
+    margin-top: 60px;
+    padding-left: 20%;
+    padding-right: 25%;
+}
+
+.iconAba{
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+ 
+.nomeAba{
+    display: block;
+}
+
+.bgTipoConsumivel{
+    padding: 20px;
+}
+
+.abas{
+    background-color: #A2A7AD;
+    display: inline-block;
+    border-radius: 5px;
+    width: 160px;
+    height: 100px;
+    transform: scale(0.9);
+    padding: 30px;
+}
+.abas:hover{
+    color: #ffffff;
+    cursor: pointer;
+    transform: scale(1);
+    background-color: #6894D7;
+}
+
+#listAba{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* input */
+.input{
+    width: 300px;
+    height: 22px;
+    border: 2px solid #575757;
+    border-left: 5px solid #575757;
+    border-radius: 3.5px;
+    padding-left: 0.2%;
+    font-family: 'roboto', sans-serif;
+    font-size: 13px;
+    display: block;
+    
+}
+.inputPesq{
+    width: 150px;
+    height: 25px;
+    border: 2px solid #575757;
+    border-left: 5px solid #575757;
+    border-radius: 3.5px;
+    padding-left: 0.2%;
+    font-size: 13px;
+    font-family: 'roboto', sans-serif;
+}
+
+.input:focus{
+    outline: none;
+    padding-left: 0.2%;
+   
+    border: 2px solid #6f9fe7 ;
+    border-left: 5px solid #6f9fe7;
+}
+.inputPesq:focus{
+    outline: none;
+    padding-left: 0.2%;
+   
+    border: 2px solid #6f9fe7 ;
+    border-left: 5px solid #6f9fe7;
+}
+
+/* BUTTONS */
+
+.btnDisable{
+    border: none;
+    /*width: 5%;*/
+    border-radius: 2px;
+    font-family: 'Bebas Neue', cursive;
+    box-shadow: 1px 1.5px 4px #00000040;
+    padding: 2px 15px 1px 15px;
+
+    color: #646464 !important;
+    background-color: #B9B9B9 !important;
+    cursor: not-allowed !important;
+}
+
+.btnModel{
+    border: none !important;
+    height: 25px !important;
+    border-radius: 5% !important;
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 17px !important;
+    box-shadow: 1px 1.5px 4px #00000040 !important;
+    padding: 2px 15px 1px 15px !important;
+    background-color: #4D64A0 !important;
+
+}
+
+#btnPesq{
+    color: #ffffff;
+}
+
+.btnModel:hover{
+    background-color: #657dbb !important;
+    cursor: pointer !important;
+}
+
+.btnModel:active{
+    background-color: #305181 !important;
+}
+
+.btnDel{
+    background-color: #CC3C3C !important;
+    color: #ffffff;
+}
+
+.btnDel:hover{
+    background-color: #e95454 !important;
+}
+
+.btnDel:active{
+    background-color: #812e2e !important;
+}
+
+
+.btnModel:active{
+    background-color: #597297 !important;
+}
+
+#btnLogar{
+    width: 100% !important;
+    font-size: 23px !important;
+    height: 33px !important;
+    color: black;
+    background-color: #7C99C5;
+    margin-top: 20px;
+    border-radius: 2px !important;
+}
+
+#btnLogar:hover{
+    background-color: #8AADE2;
+    cursor: pointer;
+}
+#btnLogar:active{
+    background-color: #597297;
+}
+
+#btnQrCode{
+    color: #ffffff;
+    width: 108.9%;
+    border-radius: 2px !important;
+}
